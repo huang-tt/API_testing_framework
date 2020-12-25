@@ -1,0 +1,11 @@
+.side-nav__brand {
+  background: url('log.png') no-repeat left center !important;
+  margin-left: 20px;
+  height: 55px;
+  background-size: contain !important;
+}
+
+.side-nav__brand-text {
+	display: None;
+	
+}

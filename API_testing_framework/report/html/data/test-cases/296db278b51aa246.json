@@ -1,0 +1,454 @@
+{
+  "uid" : "296db278b51aa246",
+  "name" : "登录店员端",
+  "fullName" : "test_case.test_api.Test_API#test_gwyc_api",
+  "historyId" : "a9ee1ddb01c8ff441ca91ab4932a3cee",
+  "time" : {
+    "start" : 1608882660561,
+    "stop" : 1608882660695,
+    "duration" : 134
+  },
+  "description" : "\n        调用接口\n        :param data: 接口信息\n        :return:\n        ",
+  "descriptionHtml" : "<pre><code>    调用接口\n    :param data: 接口信息\n    :return:\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "\n        调用接口\n        :param data: 接口信息\n        :return:\n        ",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "传入用例",
+      "time" : {
+        "start" : 1608882660561,
+        "stop" : 1608882660695,
+        "duration" : 134
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "8521275f881c281e",
+        "name" : "{'success': True, 'object': {'id': 'd12150f1bbox6015b4f610a22829c133', 'page_size': 100000, 'page_index': 1, 'name': '芊芊', 'sex': 0, 'phone_number': '13577777777', 'cj_id': '8a70251bbbox60158f58496327066cbb', 'cj_type': 4, 'clerk_type': 2, 'image_illumination': 'http://file.dyzhkj.cn/reader/15671499544956bhqz61566543935769.jpg', 'city_name': '无', 'introduction': '可爱111', 'baseinfo_id': 'e623a8ae5ad2479489bb021e327a2fc8', 'is_online': 1, 'is_register': 1, 'ry_token': '2GxPxBs0oW8Vb1DSzGg3P+YPrjBTIh82TwMufmtvEnaXWSQRexSS4xNIBjY8A2d2gqW/zy6XdI35BCgGSfxjqRSGm4wOJ27Srfr55A3f9heTmUP/NISEwCM87c0iNppd', 'ry_id': 'e623a8ae5ad2479489bb021e327a2fc8', 'city_id': '6667', 'group_id': '901eed42bbox60158cdd305212b38c3e', 'cj_name': '可可连锁1'}, 'message': '', 'code': '200', 'remark': '', 'time': '2020-12-25 15:51:01', 'addition': '', 'id': ''}",
+        "source" : "8521275f881c281e.attach",
+        "type" : "text/plain",
+        "size" : 12
+      }, {
+        "uid" : "4c702ba3a41d7f53",
+        "name" : "0e3ed421-3819-40d2-a7c2-5e38fa849972-attachment.attach",
+        "source" : "4c702ba3a41d7f53.attach",
+        "type" : "text/plain",
+        "size" : 39
+      } ],
+      "parameters" : [ {
+        "name" : "data",
+        "value" : "{'case_id': 'case_002', 'case_module': '登录', 'case_name': '登录店员端', 'case_url': 'http://39.108.95.246:6218/bbox2-web-mobile-cat/clerk/loginForClerk', 'case_method': 'post', 'case_type': 'json', 'case_data': '{\"code\":\"666666\",\"phone\":\"13577777777\",\"app_id\":\"6015\",\"cj_type\":0,\"token\":\"TOKEN\",\"user_id\":\"USER_ID\"}', 'case_headers': \"{'Content-Type': 'application/json;charset=UTF-8'}\", 'case_preposition': '', 'case_isRun': 'y', 'case_code': 200.0, 'case_result': '{\"success\":true}'}"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "登录"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "feature",
+    "value" : "接口自动化测试用例"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_api"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_API"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-MS3E5GO"
+  }, {
+    "name" : "thread",
+    "value" : "16048-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.test_api"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "data",
+    "value" : "{'case_id': 'case_002', 'case_module': '登录', 'case_name': '登录店员端', 'case_url': 'http://39.108.95.246:6218/bbox2-web-mobile-cat/clerk/loginForClerk', 'case_method': 'post', 'case_type': 'json', 'case_data': '{\"code\":\"666666\",\"phone\":\"13577777777\",\"app_id\":\"6015\",\"cj_type\":0,\"token\":\"TOKEN\",\"user_id\":\"USER_ID\"}', 'case_headers': \"{'Content-Type': 'application/json;charset=UTF-8'}\", 'case_preposition': '', 'case_isRun': 'y', 'case_code': 200.0, 'case_result': '{\"success\":true}'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ {
+      "uid" : "799fcda28cd1b84",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608882038611,
+        "stop" : 1608882038743,
+        "duration" : 132
+      }
+    }, {
+      "uid" : "42e7d1114d0e8294",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608801608932,
+        "stop" : 1608801609080,
+        "duration" : 148
+      }
+    }, {
+      "uid" : "2ce6ed7cc81dee89",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 400 == 200\n  +400\n  -200",
+      "time" : {
+        "start" : 1608801096768,
+        "stop" : 1608801096887,
+        "duration" : 119
+      }
+    }, {
+      "uid" : "8ed85121078f46bd",
+      "status" : "broken",
+      "statusDetails" : "json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)",
+      "time" : {
+        "start" : 1608800987193,
+        "stop" : 1608800987309,
+        "duration" : 116
+      }
+    }, {
+      "uid" : "10ad9157a5171acd",
+      "status" : "broken",
+      "statusDetails" : "json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)",
+      "time" : {
+        "start" : 1608800868380,
+        "stop" : 1608800868497,
+        "duration" : 117
+      }
+    }, {
+      "uid" : "9ae2056ab5b02565",
+      "status" : "broken",
+      "statusDetails" : "json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)",
+      "time" : {
+        "start" : 1608800839907,
+        "stop" : 1608800840042,
+        "duration" : 135
+      }
+    }, {
+      "uid" : "737c15cd6261073a",
+      "status" : "broken",
+      "statusDetails" : "TypeError: string indices must be integers",
+      "time" : {
+        "start" : 1608800781767,
+        "stop" : 1608800781898,
+        "duration" : 131
+      }
+    }, {
+      "uid" : "6487f9113032f88c",
+      "status" : "broken",
+      "statusDetails" : "TypeError: string indices must be integers",
+      "time" : {
+        "start" : 1608800715041,
+        "stop" : 1608800715175,
+        "duration" : 134
+      }
+    }, {
+      "uid" : "f75984df74027868",
+      "status" : "broken",
+      "statusDetails" : "TypeError: string indices must be integers",
+      "time" : {
+        "start" : 1608800665599,
+        "stop" : 1608800665730,
+        "duration" : 131
+      }
+    }, {
+      "uid" : "ab4cce5b3290ef37",
+      "status" : "broken",
+      "statusDetails" : "json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)",
+      "time" : {
+        "start" : 1608800191901,
+        "stop" : 1608800192030,
+        "duration" : 129
+      }
+    }, {
+      "uid" : "69a629288076092d",
+      "status" : "broken",
+      "statusDetails" : "json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)",
+      "time" : {
+        "start" : 1608799949983,
+        "stop" : 1608799950121,
+        "duration" : 138
+      }
+    }, {
+      "uid" : "dfff19a681ddb86d",
+      "status" : "broken",
+      "statusDetails" : "TypeError: string indices must be integers",
+      "time" : {
+        "start" : 1608799659344,
+        "stop" : 1608799659464,
+        "duration" : 120
+      }
+    }, {
+      "uid" : "29204d73a885c176",
+      "status" : "broken",
+      "statusDetails" : "TypeError: string indices must be integers",
+      "time" : {
+        "start" : 1608799466225,
+        "stop" : 1608799466346,
+        "duration" : 121
+      }
+    }, {
+      "uid" : "543544ca8c77647c",
+      "status" : "broken",
+      "statusDetails" : "TypeError: string indices must be integers",
+      "time" : {
+        "start" : 1608799347262,
+        "stop" : 1608799347396,
+        "duration" : 134
+      }
+    }, {
+      "uid" : "40ba1d741038ff9c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608790326737,
+        "stop" : 1608790326894,
+        "duration" : 157
+      }
+    }, {
+      "uid" : "166eb05a1a082744",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608790106435,
+        "stop" : 1608790106574,
+        "duration" : 139
+      }
+    }, {
+      "uid" : "bda1ae264a2b5a32",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608789970381,
+        "stop" : 1608789970515,
+        "duration" : 134
+      }
+    }, {
+      "uid" : "46734798b560b234",
+      "status" : "broken",
+      "statusDetails" : "ValueError: malformed node or string: <_ast.Name object at 0x0000028609B92DA0>",
+      "time" : {
+        "start" : 1608789754119,
+        "stop" : 1608789754253,
+        "duration" : 134
+      }
+    }, {
+      "uid" : "6a6b1ccfdaf7013d",
+      "status" : "broken",
+      "statusDetails" : "ValueError: malformed node or string: <_ast.Name object at 0x000001F0DDFD2DD8>",
+      "time" : {
+        "start" : 1608789435493,
+        "stop" : 1608789435627,
+        "duration" : 134
+      }
+    }, {
+      "uid" : "c4fbf587832ca48e",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'str' object has no attribute 'items'",
+      "time" : {
+        "start" : 1608789304943,
+        "stop" : 1608789305079,
+        "duration" : 136
+      }
+    }, {
+      "uid" : "d0aa0dfe06af4ecc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608788632852,
+        "stop" : 1608788633027,
+        "duration" : 175
+      }
+    }, {
+      "uid" : "4cb271c5b7d64c73",
+      "status" : "broken",
+      "statusDetails" : "NameError: name 'true' is not defined",
+      "time" : {
+        "start" : 1608788482798,
+        "stop" : 1608788482977,
+        "duration" : 179
+      }
+    }, {
+      "uid" : "bf0f8dd0d798905c",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: module 'pytest' has no attribute 'allure'",
+      "time" : {
+        "start" : 1608717883839,
+        "stop" : 1608717883979,
+        "duration" : 140
+      }
+    }, {
+      "uid" : "5e2fc39fe2564571",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608717461047,
+        "stop" : 1608717461188,
+        "duration" : 141
+      }
+    }, {
+      "uid" : "9f31f8f97aa01d69",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608716772169,
+        "stop" : 1608716772301,
+        "duration" : 132
+      }
+    }, {
+      "uid" : "37d59112bfc1b9e9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608716522793,
+        "stop" : 1608716522921,
+        "duration" : 128
+      }
+    }, {
+      "uid" : "f09e6f166972003c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608716466753,
+        "stop" : 1608716466894,
+        "duration" : 141
+      }
+    }, {
+      "uid" : "b501c00db6e5464",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608716383718,
+        "stop" : 1608716383843,
+        "duration" : 125
+      }
+    }, {
+      "uid" : "2ca9125b0a7a9a0a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608716122800,
+        "stop" : 1608716122925,
+        "duration" : 125
+      }
+    }, {
+      "uid" : "a9cfbacd5881d2ed",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608715690360,
+        "stop" : 1608715690501,
+        "duration" : 141
+      }
+    }, {
+      "uid" : "2d5141c9fb44934",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608715422413,
+        "stop" : 1608715422535,
+        "duration" : 122
+      }
+    }, {
+      "uid" : "cc1f55311dec053a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608713222360,
+        "stop" : 1608713222488,
+        "duration" : 128
+      }
+    }, {
+      "uid" : "e4d9eba85a3329ef",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608711971927,
+        "stop" : 1608711972114,
+        "duration" : 187
+      }
+    }, {
+      "uid" : "5a45b330815afac",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 400 == 200\n  +400\n  -200",
+      "time" : {
+        "start" : 1608711889161,
+        "stop" : 1608711889275,
+        "duration" : 114
+      }
+    }, {
+      "uid" : "6dca83343701e856",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 400 == 200\n  +400\n  -200",
+      "time" : {
+        "start" : 1608711454514,
+        "stop" : 1608711454639,
+        "duration" : 125
+      }
+    }, {
+      "uid" : "47a73b0c3cfab43e",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 400 == 200\n  +400\n  -200",
+      "time" : {
+        "start" : 1608711369120,
+        "stop" : 1608711369243,
+        "duration" : 123
+      }
+    }, {
+      "uid" : "f8c4070a1e65151e",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 400 == 200\n  +400\n  -200",
+      "time" : {
+        "start" : 1608711311246,
+        "stop" : 1608711311371,
+        "duration" : 125
+      }
+    }, {
+      "uid" : "89f9434352a143e9",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 400 == 200\n  +400\n  -200",
+      "time" : {
+        "start" : 1608711001925,
+        "stop" : 1608711002044,
+        "duration" : 119
+      }
+    }, {
+      "uid" : "d0590ea70904017d",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 400 == 200\n  +400\n  -200",
+      "time" : {
+        "start" : 1608710898635,
+        "stop" : 1608710898744,
+        "duration" : 109
+      }
+    }, {
+      "uid" : "83daa2b6647e961",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 400 == 200\n  +400\n  -200",
+      "time" : {
+        "start" : 1608710600221,
+        "stop" : 1608710600334,
+        "duration" : 113
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "296db278b51aa246.json",
+  "parameterValues" : [ "{'case_id': 'case_002', 'case_module': '登录', 'case_name': '登录店员端', 'case_url': 'http://39.108.95.246:6218/bbox2-web-mobile-cat/clerk/loginForClerk', 'case_method': 'post', 'case_type': 'json', 'case_data': '{\"code\":\"666666\",\"phone\":\"13577777777\",\"app_id\":\"6015\",\"cj_type\":0,\"token\":\"TOKEN\",\"user_id\":\"USER_ID\"}', 'case_headers': \"{'Content-Type': 'application/json;charset=UTF-8'}\", 'case_preposition': '', 'case_isRun': 'y', 'case_code': 200.0, 'case_result': '{\"success\":true}'}" ]
+}

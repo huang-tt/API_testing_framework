@@ -1,0 +1,105 @@
+{
+  "uid" : "7a35f659f4c8b167",
+  "name" : "获取验证码",
+  "fullName" : "test_case.test_api.Test_API#test_gwyc_api",
+  "historyId" : "710332c20b4c155d56c813b61bbaa914",
+  "time" : {
+    "start" : 1608789304498,
+    "stop" : 1608789304900,
+    "duration" : 402
+  },
+  "description" : "\n        调用接口\n        :param data: 接口信息\n        :return:\n        ",
+  "descriptionHtml" : "<pre><code>    调用接口\n    :param data: 接口信息\n    :return:\n</code></pre>\n",
+  "status" : "broken",
+  "statusMessage" : "AttributeError: 'str' object has no attribute 'items'",
+  "statusTrace" : "self = <test_api.Test_API object at 0x000001E30171EFD0>\ndata = {'case_code': 200.0, 'case_data': '{\"code_type\":\"3\",\"login_name\":\"13577777777\",\"u_type\":\"2\",\"app_id\":\"6015\",\"cj_type\":...user_id\":\"USER_ID\"}', 'case_headers': \"{'Content-Type': 'application/json;charset=UTF-8'}\", 'case_id': 'case_001', ...}\n\n    @pytest.mark.parametrize('data', excel)\n    @allure.step('传入用例')\n    def test_gwyc_api(self,data):\n        \"\"\"\n        调用接口\n        :param data: 接口信息\n        :return:\n        \"\"\"\n        # for i in data:\n        #     data = i\n        #     return data\n    \n        allure.dynamic.story(data['case_module'])\n        allure.dynamic.title(data['case_name'])\n    \n        # 对请求头做为空处理并添加token\n        headers = data['case_headers']\n        #将字符串转化为字典\n        headers = ast.literal_eval(headers)\n    \n    \n        # 对请求参数做为空处理\n        params = data['case_data']\n        if len(str(params).split()) == 0:\n            pass\n        elif len(str(params)) >= 0:\n            params = params\n    \n    \n    \n        # 执行用例\n        if data['case_method'] == 'get':\n            r = ApiRequst().send_requests(\n                method='get',\n                url=data['case_url'],\n                json=params,\n                headers=headers\n            )\n            allure.attach(\"返回结果\",'{0}'.format(r.json()))#在报告中显示返回结果\n            assert int(r.json()['code']) == int(data['case_code'])   # 断言验证状态码\n            allure.attach(\"验证响应数据，{0}\".format(print(assert_content(data['case_result'],r.json()))))\n    \n            # assert data['case_result'] in json.dumps(r.json(), ensure_ascii=False)  # 验证响应数据\n        elif data['case_method'] == 'post':\n            r = ApiRequst().send_requests(\n                method='post',\n                url=data['case_url'],\n                json=ast.literal_eval(params),\n                headers=headers\n            )\n            allure.attach(\"返回结果\",'{0}'.format(r.json()))\n            assert int(r.json()['code']) == int(data['case_code'])  # 验证状态码\n>           allure.attach(\"验证响应数据，{0}\".format(print(assert_content(data['case_result'], r.json()))))\n\ntest_case\\test_api.py:70: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\ncase_result = '{\"success\":true}'\nresponse = {'addition': '', 'code': '200', 'id': '', 'message': '', ...}\n\n    def assert_content(case_result,response):\n        \"\"\"\n        断言对比\n        :param case_result: Excel中想要断言的结果\n        :param response: 请求返回的结果\n        :return:返回断言结果\n        \"\"\"\n        fail_tent = ''\n>       for t in case_result.items():\nE       AttributeError: 'str' object has no attribute 'items'\n\ncommon\\assert_result.py:12: AttributeError",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "\n        调用接口\n        :param data: 接口信息\n        :return:\n        ",
+    "status" : "broken",
+    "statusMessage" : "AttributeError: 'str' object has no attribute 'items'",
+    "statusTrace" : "self = <test_api.Test_API object at 0x000001E30171EFD0>\ndata = {'case_code': 200.0, 'case_data': '{\"code_type\":\"3\",\"login_name\":\"13577777777\",\"u_type\":\"2\",\"app_id\":\"6015\",\"cj_type\":...user_id\":\"USER_ID\"}', 'case_headers': \"{'Content-Type': 'application/json;charset=UTF-8'}\", 'case_id': 'case_001', ...}\n\n    @pytest.mark.parametrize('data', excel)\n    @allure.step('传入用例')\n    def test_gwyc_api(self,data):\n        \"\"\"\n        调用接口\n        :param data: 接口信息\n        :return:\n        \"\"\"\n        # for i in data:\n        #     data = i\n        #     return data\n    \n        allure.dynamic.story(data['case_module'])\n        allure.dynamic.title(data['case_name'])\n    \n        # 对请求头做为空处理并添加token\n        headers = data['case_headers']\n        #将字符串转化为字典\n        headers = ast.literal_eval(headers)\n    \n    \n        # 对请求参数做为空处理\n        params = data['case_data']\n        if len(str(params).split()) == 0:\n            pass\n        elif len(str(params)) >= 0:\n            params = params\n    \n    \n    \n        # 执行用例\n        if data['case_method'] == 'get':\n            r = ApiRequst().send_requests(\n                method='get',\n                url=data['case_url'],\n                json=params,\n                headers=headers\n            )\n            allure.attach(\"返回结果\",'{0}'.format(r.json()))#在报告中显示返回结果\n            assert int(r.json()['code']) == int(data['case_code'])   # 断言验证状态码\n            allure.attach(\"验证响应数据，{0}\".format(print(assert_content(data['case_result'],r.json()))))\n    \n            # assert data['case_result'] in json.dumps(r.json(), ensure_ascii=False)  # 验证响应数据\n        elif data['case_method'] == 'post':\n            r = ApiRequst().send_requests(\n                method='post',\n                url=data['case_url'],\n                json=ast.literal_eval(params),\n                headers=headers\n            )\n            allure.attach(\"返回结果\",'{0}'.format(r.json()))\n            assert int(r.json()['code']) == int(data['case_code'])  # 验证状态码\n>           allure.attach(\"验证响应数据，{0}\".format(print(assert_content(data['case_result'], r.json()))))\n\ntest_case\\test_api.py:70: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\ncase_result = '{\"success\":true}'\nresponse = {'addition': '', 'code': '200', 'id': '', 'message': '', ...}\n\n    def assert_content(case_result,response):\n        \"\"\"\n        断言对比\n        :param case_result: Excel中想要断言的结果\n        :param response: 请求返回的结果\n        :return:返回断言结果\n        \"\"\"\n        fail_tent = ''\n>       for t in case_result.items():\nE       AttributeError: 'str' object has no attribute 'items'\n\ncommon\\assert_result.py:12: AttributeError",
+    "steps" : [ {
+      "name" : "传入用例",
+      "time" : {
+        "start" : 1608789304498,
+        "stop" : 1608789304899,
+        "duration" : 401
+      },
+      "status" : "broken",
+      "statusMessage" : "AttributeError: 'str' object has no attribute 'items'\n",
+      "statusTrace" : "  File \"F:\\Python\\lib\\site-packages\\allure_commons\\_allure.py\", line 172, in impl\n    return func(*a, **kw)\n  File \"F:\\Python\\Test_learn\\API_testing_framework\\test_case\\test_api.py\", line 70, in test_gwyc_api\n    allure.attach(\"验证响应数据，{0}\".format(print(assert_content(data['case_result'], r.json()))))\n  File \"F:\\Python\\Test_learn\\API_testing_framework\\common\\assert_result.py\", line 12, in assert_content\n    for t in case_result.items():\n",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b172a25c3b489e52",
+        "name" : "{'success': True, 'object': {'code': '544886'}, 'message': '', 'code': '200', 'remark': '', 'time': '2020-12-24 13:55:04', 'addition': '', 'id': ''}",
+        "source" : "b172a25c3b489e52.attach",
+        "type" : "text/plain",
+        "size" : 12
+      } ],
+      "parameters" : [ {
+        "name" : "data",
+        "value" : "{'case_id': 'case_001', 'case_module': '登录', 'case_name': '获取验证码', 'case_url': 'http://39.108.95.246:6218/bbox2-web-mobile-cat/common/getVeriCode', 'case_method': 'post', 'case_type': 'json', 'case_data': '{\"code_type\":\"3\",\"login_name\":\"13577777777\",\"u_type\":\"2\",\"app_id\":\"6015\",\"cj_type\":0,\"token\":\"TOKEN\",\"user_id\":\"USER_ID\"}', 'case_headers': \"{'Content-Type': 'application/json;charset=UTF-8'}\", 'case_preposition': '', 'case_isRun': 'y', 'case_code': 200.0, 'case_result': '{\"success\":true}'}"
+      } ],
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 1,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "登录"
+  }, {
+    "name" : "feature",
+    "value" : "接口自动化测试用例"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_api"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_API"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-MS3E5GO"
+  }, {
+    "name" : "thread",
+    "value" : "6516-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.test_api"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "data",
+    "value" : "{'case_id': 'case_001', 'case_module': '登录', 'case_name': '获取验证码', 'case_url': 'http://39.108.95.246:6218/bbox2-web-mobile-cat/common/getVeriCode', 'case_method': 'post', 'case_type': 'json', 'case_data': '{\"code_type\":\"3\",\"login_name\":\"13577777777\",\"u_type\":\"2\",\"app_id\":\"6015\",\"cj_type\":0,\"token\":\"TOKEN\",\"user_id\":\"USER_ID\"}', 'case_headers': \"{'Content-Type': 'application/json;charset=UTF-8'}\", 'case_preposition': '', 'case_isRun': 'y', 'case_code': 200.0, 'case_result': '{\"success\":true}'}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7a35f659f4c8b167.json",
+  "parameterValues" : [ "{'case_id': 'case_001', 'case_module': '登录', 'case_name': '获取验证码', 'case_url': 'http://39.108.95.246:6218/bbox2-web-mobile-cat/common/getVeriCode', 'case_method': 'post', 'case_type': 'json', 'case_data': '{\"code_type\":\"3\",\"login_name\":\"13577777777\",\"u_type\":\"2\",\"app_id\":\"6015\",\"cj_type\":0,\"token\":\"TOKEN\",\"user_id\":\"USER_ID\"}', 'case_headers': \"{'Content-Type': 'application/json;charset=UTF-8'}\", 'case_preposition': '', 'case_isRun': 'y', 'case_code': 200.0, 'case_result': '{\"success\":true}'}" ]
+}
