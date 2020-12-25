@@ -1,3 +1,8 @@
+import os,sys
+dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+sys.path.append(dir)	#添加python项目的环境地址
+sys.path.append("F:\Python\Lib\site-packages")#添加python项目的第三库的环境地址
+
 #将上个接口返回的内容给下个接口使用
 from utils.openrationExcel import *
 import json
