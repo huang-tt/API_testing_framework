@@ -1,0 +1,1 @@
+验证响应数据，{'success': False, 'object': {}, 'message': '验证码不正确', 'code': '400', 'remark': '', 'time': '2020-12-30 16:55:35', 'addition': '', 'id': ''}接口返回结果没有此值：('success', True),

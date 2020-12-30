@@ -1,0 +1,631 @@
+{
+  "uid" : "a7191bcac10d836",
+  "name" : "获取验证码",
+  "fullName" : "test_case.test_api.Test_API#test_gwyc_api",
+  "historyId" : "710332c20b4c155d56c813b61bbaa914",
+  "time" : {
+    "start" : 1609318815879,
+    "stop" : 1609318816333,
+    "duration" : 454
+  },
+  "description" : "\n        调用接口\n        :param data: 接口信息\n        :return:\n        ",
+  "descriptionHtml" : "<pre><code>    调用接口\n    :param data: 接口信息\n    :return:\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "\n        调用接口\n        :param data: 接口信息\n        :return:\n        ",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "传入用例",
+      "time" : {
+        "start" : 1609318815879,
+        "stop" : 1609318816333,
+        "duration" : 454
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "eb7ab9e2ef3df53",
+        "name" : "{'success': True, 'object': {'code': '776041'}, 'message': '', 'code': '200', 'remark': '', 'time': '2020-12-30 17:00:15', 'addition': '', 'id': ''}",
+        "source" : "eb7ab9e2ef3df53.attach",
+        "type" : "text/plain",
+        "size" : 12
+      }, {
+        "uid" : "8da928b2e2242f81",
+        "name" : "9ec1d22b-212c-4008-9447-18eb537cbb46-attachment.attach",
+        "source" : "8da928b2e2242f81.attach",
+        "type" : "text/plain",
+        "size" : 39
+      } ],
+      "parameters" : [ {
+        "name" : "data",
+        "value" : "{'case_id': 1.0, 'case_module': '登录', 'case_name': '获取验证码', 'case_url': 'http://39.108.95.246:6218/bbox2-web-mobile-cat/common/getVeriCode', 'case_method': 'post', 'case_type': 'json', 'case_data': '{\"code_type\":\"3\",\"login_name\":\"13577777777\",\"u_type\":\"2\",\"app_id\":\"6015\",\"cj_type\":0,\"token\":\"TOKEN\",\"user_id\":\"USER_ID\"}', 'case_headers': \"{'Content-Type': 'application/json;charset=UTF-8'}\", 'case_preposition': '', 'case_isRun': 'y', 'case_code': 200.0, 'case_assert': '{\"success\":true}', 'case_result': '', 'case_remarks': ''}"
+      } ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "登录"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "feature",
+    "value" : "接口自动化测试用例"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_api"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_API"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-MS3E5GO"
+  }, {
+    "name" : "thread",
+    "value" : "20004-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.test_api"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "data",
+    "value" : "{'case_id': 1.0, 'case_module': '登录', 'case_name': '获取验证码', 'case_url': 'http://39.108.95.246:6218/bbox2-web-mobile-cat/common/getVeriCode', 'case_method': 'post', 'case_type': 'json', 'case_data': '{\"code_type\":\"3\",\"login_name\":\"13577777777\",\"u_type\":\"2\",\"app_id\":\"6015\",\"cj_type\":0,\"token\":\"TOKEN\",\"user_id\":\"USER_ID\"}', 'case_headers': \"{'Content-Type': 'application/json;charset=UTF-8'}\", 'case_preposition': '', 'case_isRun': 'y', 'case_code': 200.0, 'case_assert': '{\"success\":true}', 'case_result': '', 'case_remarks': ''}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ {
+      "uid" : "8bf8117d6a386961",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609318534613,
+        "stop" : 1609318535112,
+        "duration" : 499
+      }
+    }, {
+      "uid" : "1dc4be6fcd9f032b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609317384930,
+        "stop" : 1609317385258,
+        "duration" : 328
+      }
+    }, {
+      "uid" : "ddc52abdd5a72e3e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609317300348,
+        "stop" : 1609317300801,
+        "duration" : 453
+      }
+    }, {
+      "uid" : "7fe938602f228e19",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609316868445,
+        "stop" : 1609316868866,
+        "duration" : 421
+      }
+    }, {
+      "uid" : "ee88338470664888",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609316321385,
+        "stop" : 1609316321795,
+        "duration" : 410
+      }
+    }, {
+      "uid" : "bba3e13d6721c732",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609316226380,
+        "stop" : 1609316226801,
+        "duration" : 421
+      }
+    }, {
+      "uid" : "22eb13fc2ab32e1f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609316141567,
+        "stop" : 1609316141833,
+        "duration" : 266
+      }
+    }, {
+      "uid" : "8fe32eec09c7eeff",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609316112301,
+        "stop" : 1609316112685,
+        "duration" : 384
+      }
+    }, {
+      "uid" : "d5ef367e229fb10c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609316070114,
+        "stop" : 1609316070505,
+        "duration" : 391
+      }
+    }, {
+      "uid" : "3981c5d9c7bbb826",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609315990473,
+        "stop" : 1609315990911,
+        "duration" : 438
+      }
+    }, {
+      "uid" : "d89428707bb4e498",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609315904802,
+        "stop" : 1609315905239,
+        "duration" : 437
+      }
+    }, {
+      "uid" : "399a06debd9bca95",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609315568864,
+        "stop" : 1609315569286,
+        "duration" : 422
+      }
+    }, {
+      "uid" : "6ff4623ec26bc3fb",
+      "status" : "broken",
+      "statusDetails" : "ValueError: coordinate is not a valid coordinate or range",
+      "time" : {
+        "start" : 1609315485833,
+        "stop" : 1609315486442,
+        "duration" : 609
+      }
+    }, {
+      "uid" : "cd377fbc77b81608",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609238395200,
+        "stop" : 1609238395719,
+        "duration" : 519
+      }
+    }, {
+      "uid" : "f33e58a7750a2386",
+      "status" : "broken",
+      "statusDetails" : "ValueError: Row or column values must be at least 1",
+      "time" : {
+        "start" : 1609237588089,
+        "stop" : 1609237588527,
+        "duration" : 438
+      }
+    }, {
+      "uid" : "ac0ba0c49dbacc85",
+      "status" : "broken",
+      "statusDetails" : "KeyError: 'Worksheet Sheet1 does not exist.'",
+      "time" : {
+        "start" : 1609237486849,
+        "stop" : 1609237487255,
+        "duration" : 406
+      }
+    }, {
+      "uid" : "d89420b49c4786fc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609235881861,
+        "stop" : 1609235882312,
+        "duration" : 451
+      }
+    }, {
+      "uid" : "bb2992080eb2e0b8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609234471025,
+        "stop" : 1609234471439,
+        "duration" : 414
+      }
+    }, {
+      "uid" : "5f343ae12d0b5f8d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609234333270,
+        "stop" : 1609234333732,
+        "duration" : 462
+      }
+    }, {
+      "uid" : "7c75a6d810a53f7a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609233432330,
+        "stop" : 1609233432654,
+        "duration" : 324
+      }
+    }, {
+      "uid" : "a154bc24ffb02a1",
+      "status" : "broken",
+      "statusDetails" : "xlsxwriter.exceptions.FileCreateError: [Errno 13] Permission denied: 'F:\\\\Python\\\\Test_learn\\\\API_testing_framework\\\\data\\\\result.xlsx'",
+      "time" : {
+        "start" : 1609233415095,
+        "stop" : 1609233415648,
+        "duration" : 553
+      }
+    }, {
+      "uid" : "c927a906135cc069",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608882660137,
+        "stop" : 1608882660557,
+        "duration" : 420
+      }
+    }, {
+      "uid" : "b1bf28894dc9b6f1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608882038160,
+        "stop" : 1608882038605,
+        "duration" : 445
+      }
+    }, {
+      "uid" : "a2ec762291f83a59",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608801608519,
+        "stop" : 1608801608928,
+        "duration" : 409
+      }
+    }, {
+      "uid" : "18b5414170f30786",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608801096425,
+        "stop" : 1608801096765,
+        "duration" : 340
+      }
+    }, {
+      "uid" : "a7ea032eb2698286",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608800986778,
+        "stop" : 1608800987188,
+        "duration" : 410
+      }
+    }, {
+      "uid" : "a548930305b5d4c3",
+      "status" : "broken",
+      "statusDetails" : "TypeError: list indices must be integers or slices, not str",
+      "time" : {
+        "start" : 1608800868099,
+        "stop" : 1608800868342,
+        "duration" : 243
+      }
+    }, {
+      "uid" : "34b8d22f4b19a575",
+      "status" : "broken",
+      "statusDetails" : "json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)",
+      "time" : {
+        "start" : 1608800839391,
+        "stop" : 1608800839842,
+        "duration" : 451
+      }
+    }, {
+      "uid" : "a58297aa650996ca",
+      "status" : "broken",
+      "statusDetails" : "TypeError: string indices must be integers",
+      "time" : {
+        "start" : 1608800781328,
+        "stop" : 1608800781713,
+        "duration" : 385
+      }
+    }, {
+      "uid" : "c4a5d474f89a4800",
+      "status" : "broken",
+      "statusDetails" : "TypeError: string indices must be integers",
+      "time" : {
+        "start" : 1608800714737,
+        "stop" : 1608800714998,
+        "duration" : 261
+      }
+    }, {
+      "uid" : "2286637b25c2d6b2",
+      "status" : "broken",
+      "statusDetails" : "TypeError: string indices must be integers",
+      "time" : {
+        "start" : 1608800665302,
+        "stop" : 1608800665557,
+        "duration" : 255
+      }
+    }, {
+      "uid" : "46510920804c558c",
+      "status" : "broken",
+      "statusDetails" : "json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)",
+      "time" : {
+        "start" : 1608800191448,
+        "stop" : 1608800191832,
+        "duration" : 384
+      }
+    }, {
+      "uid" : "e9b33e9c2f0da33e",
+      "status" : "broken",
+      "statusDetails" : "json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)",
+      "time" : {
+        "start" : 1608799949512,
+        "stop" : 1608799949909,
+        "duration" : 397
+      }
+    }, {
+      "uid" : "cd495b396539506f",
+      "status" : "broken",
+      "statusDetails" : "TypeError: string indices must be integers",
+      "time" : {
+        "start" : 1608799658905,
+        "stop" : 1608799659296,
+        "duration" : 391
+      }
+    }, {
+      "uid" : "d688bace615e7ad4",
+      "status" : "broken",
+      "statusDetails" : "TypeError: string indices must be integers",
+      "time" : {
+        "start" : 1608799465828,
+        "stop" : 1608799466180,
+        "duration" : 352
+      }
+    }, {
+      "uid" : "3c97e41e37d876c7",
+      "status" : "broken",
+      "statusDetails" : "TypeError: string indices must be integers",
+      "time" : {
+        "start" : 1608799346793,
+        "stop" : 1608799347220,
+        "duration" : 427
+      }
+    }, {
+      "uid" : "60d84be98ee77047",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608790326310,
+        "stop" : 1608790326732,
+        "duration" : 422
+      }
+    }, {
+      "uid" : "aa0be9e2c9492baf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608790106027,
+        "stop" : 1608790106431,
+        "duration" : 404
+      }
+    }, {
+      "uid" : "5ba7775c7c1acc2e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608789970000,
+        "stop" : 1608789970376,
+        "duration" : 376
+      }
+    }, {
+      "uid" : "34ab5887b3fdd04b",
+      "status" : "broken",
+      "statusDetails" : "ValueError: malformed node or string: <_ast.Name object at 0x0000028609B08588>",
+      "time" : {
+        "start" : 1608789753666,
+        "stop" : 1608789754062,
+        "duration" : 396
+      }
+    }, {
+      "uid" : "f81614913eb9ea5e",
+      "status" : "broken",
+      "statusDetails" : "ValueError: malformed node or string: <_ast.Name object at 0x000001F0DDF48668>",
+      "time" : {
+        "start" : 1608789435024,
+        "stop" : 1608789435422,
+        "duration" : 398
+      }
+    }, {
+      "uid" : "42a6a02f5ba8a092",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'str' object has no attribute 'items'",
+      "time" : {
+        "start" : 1608789304498,
+        "stop" : 1608789304900,
+        "duration" : 402
+      }
+    }, {
+      "uid" : "9e331eebe1357790",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608788632453,
+        "stop" : 1608788632849,
+        "duration" : 396
+      }
+    }, {
+      "uid" : "134cd72a6e9d0cf7",
+      "status" : "broken",
+      "statusDetails" : "NameError: name 'true' is not defined",
+      "time" : {
+        "start" : 1608788482267,
+        "stop" : 1608788482756,
+        "duration" : 489
+      }
+    }, {
+      "uid" : "4ca8560f349bb37f",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: module 'pytest' has no attribute 'allure'",
+      "time" : {
+        "start" : 1608717883464,
+        "stop" : 1608717883807,
+        "duration" : 343
+      }
+    }, {
+      "uid" : "ebd659a496f013ba",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608717460594,
+        "stop" : 1608717461031,
+        "duration" : 437
+      }
+    }, {
+      "uid" : "6d6eb271dbadbf6e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608716771764,
+        "stop" : 1608716772165,
+        "duration" : 401
+      }
+    }, {
+      "uid" : "df90b67ac943710c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608716522411,
+        "stop" : 1608716522789,
+        "duration" : 378
+      }
+    }, {
+      "uid" : "e054be381ad7a642",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608716466394,
+        "stop" : 1608716466753,
+        "duration" : 359
+      }
+    }, {
+      "uid" : "51efc3bac8692919",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608716383343,
+        "stop" : 1608716383702,
+        "duration" : 359
+      }
+    }, {
+      "uid" : "bb1885eeb524bd75",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608716122191,
+        "stop" : 1608716122581,
+        "duration" : 390
+      }
+    }, {
+      "uid" : "18634792274008a1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608715690001,
+        "stop" : 1608715690360,
+        "duration" : 359
+      }
+    }, {
+      "uid" : "666391d4eaaa6c56",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608715421984,
+        "stop" : 1608715422409,
+        "duration" : 425
+      }
+    }, {
+      "uid" : "e0dc5872e34bba8a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608713221941,
+        "stop" : 1608713222356,
+        "duration" : 415
+      }
+    }, {
+      "uid" : "52bd6b15531a0c49",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608711971573,
+        "stop" : 1608711971924,
+        "duration" : 351
+      }
+    }, {
+      "uid" : "19153f25fc04639c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608711888762,
+        "stop" : 1608711889156,
+        "duration" : 394
+      }
+    }, {
+      "uid" : "1dfa21ef0d31e808",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert '{\"success\":true}' in '{\"success\": true, \"object\": {\"code\": \"805207\"}, \"message\": \"\", \"code\": \"200\", \"remark\": \"\", \"time\": \"2020-12-23 16:17:34\", \"addition\": \"\", \"id\": \"\"}'\n +  where '{\"success\": true, \"object\": {\"code\": \"805207\"}, \"message\": \"\", \"code\": \"200\", \"remark\": \"\", \"time\": \"2020-12-23 16:17:34\", \"addition\": \"\", \"id\": \"\"}' = <function dumps at 0x000001B869B6B048>({'addition': '', 'code': '200', 'id': '', 'message': '', ...}, ensure_ascii=False)\n +    where <function dumps at 0x000001B869B6B048> = json.dumps\n +    and   {'addition': '', 'code': '200', 'id': '', 'message': '', ...} = <bound method Response.json of <Response [200]>>()\n +      where <bound method Response.json of <Response [200]>> = <Response [200]>.json",
+      "time" : {
+        "start" : 1608711454106,
+        "stop" : 1608711454483,
+        "duration" : 377
+      }
+    }, {
+      "uid" : "c8eda8a18b10bd54",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'Test_API' object has no attribute 'json'",
+      "time" : {
+        "start" : 1608711368727,
+        "stop" : 1608711369080,
+        "duration" : 353
+      }
+    }, {
+      "uid" : "a58641d1816db37c",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'Test_API' object has no attribute 'json'",
+      "time" : {
+        "start" : 1608711310793,
+        "stop" : 1608711311199,
+        "duration" : 406
+      }
+    }, {
+      "uid" : "cf5469e4d3389ec4",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert '{\"success\":true}' in {'addition': '', 'code': '200', 'id': '', 'message': '', ...}\n +  where {'addition': '', 'code': '200', 'id': '', 'message': '', ...} = <bound method Response.json of <Response [200]>>()\n +    where <bound method Response.json of <Response [200]>> = <Response [200]>.json",
+      "time" : {
+        "start" : 1608711001502,
+        "stop" : 1608711001882,
+        "duration" : 380
+      }
+    }, {
+      "uid" : "405f63aad6a5d247",
+      "status" : "broken",
+      "statusDetails" : "TypeError: literal_eval() got an unexpected keyword argument 'ensure_ascii'",
+      "time" : {
+        "start" : 1608710898224,
+        "stop" : 1608710898588,
+        "duration" : 364
+      }
+    }, {
+      "uid" : "c4f1e4d4cf6161a8",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert '{\"success\":true}' in '{\"success\": true, \"object\": {\"code\": \"573380\"}, \"message\": \"\", \"code\": \"200\", \"remark\": \"\", \"time\": \"2020-12-23 16:03:19\", \"addition\": \"\", \"id\": \"\"}'\n +  where '{\"success\": true, \"object\": {\"code\": \"573380\"}, \"message\": \"\", \"code\": \"200\", \"remark\": \"\", \"time\": \"2020-12-23 16:03:19\", \"addition\": \"\", \"id\": \"\"}' = <function dumps at 0x0000024025BAB048>({'addition': '', 'code': '200', 'id': '', 'message': '', ...}, ensure_ascii=False)\n +    where <function dumps at 0x0000024025BAB048> = json.dumps\n +    and   {'addition': '', 'code': '200', 'id': '', 'message': '', ...} = <bound method Response.json of <Response [200]>>()\n +      where <bound method Response.json of <Response [200]>> = <Response [200]>.json",
+      "time" : {
+        "start" : 1608710599775,
+        "stop" : 1608710600176,
+        "duration" : 401
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a7191bcac10d836.json",
+  "parameterValues" : [ "{'case_id': 1.0, 'case_module': '登录', 'case_name': '获取验证码', 'case_url': 'http://39.108.95.246:6218/bbox2-web-mobile-cat/common/getVeriCode', 'case_method': 'post', 'case_type': 'json', 'case_data': '{\"code_type\":\"3\",\"login_name\":\"13577777777\",\"u_type\":\"2\",\"app_id\":\"6015\",\"cj_type\":0,\"token\":\"TOKEN\",\"user_id\":\"USER_ID\"}', 'case_headers': \"{'Content-Type': 'application/json;charset=UTF-8'}\", 'case_preposition': '', 'case_isRun': 'y', 'case_code': 200.0, 'case_assert': '{\"success\":true}', 'case_result': '', 'case_remarks': ''}" ]
+}

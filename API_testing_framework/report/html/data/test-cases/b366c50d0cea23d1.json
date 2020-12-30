@@ -1,0 +1,637 @@
+{
+  "uid" : "b366c50d0cea23d1",
+  "name" : "登录店员端",
+  "fullName" : "test_case.test_api.Test_API#test_gwyc_api",
+  "historyId" : "a9ee1ddb01c8ff441ca91ab4932a3cee",
+  "time" : {
+    "start" : 1609318816333,
+    "stop" : 1609318816536,
+    "duration" : 203
+  },
+  "description" : "\n        调用接口\n        :param data: 接口信息\n        :return:\n        ",
+  "descriptionHtml" : "<pre><code>    调用接口\n    :param data: 接口信息\n    :return:\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "\n        调用接口\n        :param data: 接口信息\n        :return:\n        ",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "传入用例",
+      "time" : {
+        "start" : 1609318816333,
+        "stop" : 1609318816536,
+        "duration" : 203
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "efef379b8ef7284e",
+        "name" : "{'success': True, 'object': {'id': 'd12150f1bbox6015b4f610a22829c133', 'page_size': 100000, 'page_index': 1, 'name': '芊芊', 'sex': 0, 'phone_number': '13577777777', 'cj_id': '8a70251bbbox60158f58496327066cbb', 'cj_type': 4, 'clerk_type': 2, 'image_illumination': 'http://file.dyzhkj.cn/reader/15671499544956bhqz61566543935769.jpg', 'city_name': '无', 'introduction': '可爱111', 'baseinfo_id': 'e623a8ae5ad2479489bb021e327a2fc8', 'is_online': 1, 'is_register': 1, 'ry_token': '2GxPxBs0oW8Vb1DSzGg3P+YPrjBTIh82TwMufmtvEnaXWSQRexSS4xNIBjY8A2d2gqW/zy6XdI35BCgGSfxjqRSGm4wOJ27Srfr55A3f9heTmUP/NISEwCM87c0iNppd', 'ry_id': 'e623a8ae5ad2479489bb021e327a2fc8', 'city_id': '6667', 'group_id': '901eed42bbox60158cdd305212b38c3e', 'cj_name': '可可连锁1'}, 'message': '', 'code': '200', 'remark': '', 'time': '2020-12-30 17:00:16', 'addition': '', 'id': ''}",
+        "source" : "efef379b8ef7284e.attach",
+        "type" : "text/plain",
+        "size" : 12
+      }, {
+        "uid" : "bb6b1b56e438326f",
+        "name" : "b2b67be6-7a93-41ae-973e-51eaa051d3e2-attachment.attach",
+        "source" : "bb6b1b56e438326f.attach",
+        "type" : "text/plain",
+        "size" : 39
+      } ],
+      "parameters" : [ {
+        "name" : "data",
+        "value" : "{'case_id': 2.0, 'case_module': '登录', 'case_name': '登录店员端', 'case_url': 'http://39.108.95.246:6218/bbox2-web-mobile-cat/clerk/loginForClerk', 'case_method': 'post', 'case_type': 'json', 'case_data': '{\"code\":\"666666\",\"phone\":\"13577777777\",\"app_id\":\"6015\",\"cj_type\":0,\"token\":\"TOKEN\",\"user_id\":\"USER_ID\"}', 'case_headers': \"{'Content-Type': 'application/json;charset=UTF-8'}\", 'case_preposition': '', 'case_isRun': 'y', 'case_code': 200.0, 'case_assert': '{\"success\":true}', 'case_result': '', 'case_remarks': ''}"
+      } ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "登录"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "feature",
+    "value" : "接口自动化测试用例"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_api"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_API"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-MS3E5GO"
+  }, {
+    "name" : "thread",
+    "value" : "20004-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.test_api"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "data",
+    "value" : "{'case_id': 2.0, 'case_module': '登录', 'case_name': '登录店员端', 'case_url': 'http://39.108.95.246:6218/bbox2-web-mobile-cat/clerk/loginForClerk', 'case_method': 'post', 'case_type': 'json', 'case_data': '{\"code\":\"666666\",\"phone\":\"13577777777\",\"app_id\":\"6015\",\"cj_type\":0,\"token\":\"TOKEN\",\"user_id\":\"USER_ID\"}', 'case_headers': \"{'Content-Type': 'application/json;charset=UTF-8'}\", 'case_preposition': '', 'case_isRun': 'y', 'case_code': 200.0, 'case_assert': '{\"success\":true}', 'case_result': '', 'case_remarks': ''}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ {
+      "uid" : "ba189bb9f0347326",
+      "status" : "failed",
+      "statusDetails" : "pytest_assume.plugin.FailedAssumption: \n1 Failed Assumptions:\n\ntest_case\\test_api.py:80: AssumptionFailure\n>>\tpytest.assume(int(r.json()['code']) == int(data['case_code']))   # 验证状态码\nAssertionError: assert False",
+      "time" : {
+        "start" : 1609318535116,
+        "stop" : 1609318535115,
+        "duration" : -1
+      }
+    }, {
+      "uid" : "980c2daed9fccb47",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 400 == 200\n  +400\n  -200",
+      "time" : {
+        "start" : 1609317385258,
+        "stop" : 1609317385383,
+        "duration" : 125
+      }
+    }, {
+      "uid" : "971932b850f06686",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 400 == 200\n  +400\n  -200",
+      "time" : {
+        "start" : 1609317300801,
+        "stop" : 1609317300911,
+        "duration" : 110
+      }
+    }, {
+      "uid" : "511ec5050dfed95c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609316868898,
+        "stop" : 1609316869054,
+        "duration" : 156
+      }
+    }, {
+      "uid" : "16d9564786429f86",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609316321799,
+        "stop" : 1609316321958,
+        "duration" : 159
+      }
+    }, {
+      "uid" : "32ae8da80291a261",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609316226817,
+        "stop" : 1609316226973,
+        "duration" : 156
+      }
+    }, {
+      "uid" : "bb44bcc916422cb0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609316141833,
+        "stop" : 1609316142005,
+        "duration" : 172
+      }
+    }, {
+      "uid" : "173dd1c8581042af",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609316112689,
+        "stop" : 1609316112859,
+        "duration" : 170
+      }
+    }, {
+      "uid" : "917a7d1ab86bc1d0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609316070505,
+        "stop" : 1609316070677,
+        "duration" : 172
+      }
+    }, {
+      "uid" : "e8a302180bebdcc6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609315990915,
+        "stop" : 1609315991097,
+        "duration" : 182
+      }
+    }, {
+      "uid" : "3f07361e64904194",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609315905239,
+        "stop" : 1609315905411,
+        "duration" : 172
+      }
+    }, {
+      "uid" : "d0789fdb3e8edd04",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609315569286,
+        "stop" : 1609315569458,
+        "duration" : 172
+      }
+    }, {
+      "uid" : "2820e48f211676f0",
+      "status" : "broken",
+      "statusDetails" : "ValueError: coordinate is not a valid coordinate or range",
+      "time" : {
+        "start" : 1609315486536,
+        "stop" : 1609315486755,
+        "duration" : 219
+      }
+    }, {
+      "uid" : "e4bcf5c9e3963038",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609238395723,
+        "stop" : 1609238395911,
+        "duration" : 188
+      }
+    }, {
+      "uid" : "7f2322870f162a37",
+      "status" : "broken",
+      "statusDetails" : "ValueError: Row or column values must be at least 1",
+      "time" : {
+        "start" : 1609237588594,
+        "stop" : 1609237588744,
+        "duration" : 150
+      }
+    }, {
+      "uid" : "8f9cf0a7a15a95e3",
+      "status" : "broken",
+      "statusDetails" : "KeyError: 'Worksheet Sheet1 does not exist.'",
+      "time" : {
+        "start" : 1609237487317,
+        "stop" : 1609237487459,
+        "duration" : 142
+      }
+    }, {
+      "uid" : "2f984e8e2395b299",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609235882317,
+        "stop" : 1609235882462,
+        "duration" : 145
+      }
+    }, {
+      "uid" : "7b8bac636077aec",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609234471443,
+        "stop" : 1609234471628,
+        "duration" : 185
+      }
+    }, {
+      "uid" : "48d688c536fc4f7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609234333736,
+        "stop" : 1609234333929,
+        "duration" : 193
+      }
+    }, {
+      "uid" : "83afde217694c3f1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609233432658,
+        "stop" : 1609233432852,
+        "duration" : 194
+      }
+    }, {
+      "uid" : "4b8f4e2d5abd0b18",
+      "status" : "broken",
+      "statusDetails" : "xlsxwriter.exceptions.FileCreateError: [Errno 13] Permission denied: 'F:\\\\Python\\\\Test_learn\\\\API_testing_framework\\\\data\\\\result.xlsx'",
+      "time" : {
+        "start" : 1609233415799,
+        "stop" : 1609233415959,
+        "duration" : 160
+      }
+    }, {
+      "uid" : "e2b3aa45b78eb262",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608882660561,
+        "stop" : 1608882660695,
+        "duration" : 134
+      }
+    }, {
+      "uid" : "fc9065c77e26c372",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608882038611,
+        "stop" : 1608882038743,
+        "duration" : 132
+      }
+    }, {
+      "uid" : "eec18e0a9467579c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608801608932,
+        "stop" : 1608801609080,
+        "duration" : 148
+      }
+    }, {
+      "uid" : "e68b54a349360332",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 400 == 200\n  +400\n  -200",
+      "time" : {
+        "start" : 1608801096768,
+        "stop" : 1608801096887,
+        "duration" : 119
+      }
+    }, {
+      "uid" : "f5f9489a627a13c5",
+      "status" : "broken",
+      "statusDetails" : "json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)",
+      "time" : {
+        "start" : 1608800987193,
+        "stop" : 1608800987309,
+        "duration" : 116
+      }
+    }, {
+      "uid" : "94a8e68c8398953e",
+      "status" : "broken",
+      "statusDetails" : "json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)",
+      "time" : {
+        "start" : 1608800868380,
+        "stop" : 1608800868497,
+        "duration" : 117
+      }
+    }, {
+      "uid" : "5fb0a56ffe6b1089",
+      "status" : "broken",
+      "statusDetails" : "json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)",
+      "time" : {
+        "start" : 1608800839907,
+        "stop" : 1608800840042,
+        "duration" : 135
+      }
+    }, {
+      "uid" : "7abc81d61e976d0f",
+      "status" : "broken",
+      "statusDetails" : "TypeError: string indices must be integers",
+      "time" : {
+        "start" : 1608800781767,
+        "stop" : 1608800781898,
+        "duration" : 131
+      }
+    }, {
+      "uid" : "be925d32d0b2b9dc",
+      "status" : "broken",
+      "statusDetails" : "TypeError: string indices must be integers",
+      "time" : {
+        "start" : 1608800715041,
+        "stop" : 1608800715175,
+        "duration" : 134
+      }
+    }, {
+      "uid" : "f9695de2f2bde8e",
+      "status" : "broken",
+      "statusDetails" : "TypeError: string indices must be integers",
+      "time" : {
+        "start" : 1608800665599,
+        "stop" : 1608800665730,
+        "duration" : 131
+      }
+    }, {
+      "uid" : "a300ed1f1efcd44e",
+      "status" : "broken",
+      "statusDetails" : "json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)",
+      "time" : {
+        "start" : 1608800191901,
+        "stop" : 1608800192030,
+        "duration" : 129
+      }
+    }, {
+      "uid" : "89abba3be1186092",
+      "status" : "broken",
+      "statusDetails" : "json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)",
+      "time" : {
+        "start" : 1608799949983,
+        "stop" : 1608799950121,
+        "duration" : 138
+      }
+    }, {
+      "uid" : "cf2f06aba5aa61a8",
+      "status" : "broken",
+      "statusDetails" : "TypeError: string indices must be integers",
+      "time" : {
+        "start" : 1608799659344,
+        "stop" : 1608799659464,
+        "duration" : 120
+      }
+    }, {
+      "uid" : "8df8ff1473995259",
+      "status" : "broken",
+      "statusDetails" : "TypeError: string indices must be integers",
+      "time" : {
+        "start" : 1608799466225,
+        "stop" : 1608799466346,
+        "duration" : 121
+      }
+    }, {
+      "uid" : "8017b8612353eda2",
+      "status" : "broken",
+      "statusDetails" : "TypeError: string indices must be integers",
+      "time" : {
+        "start" : 1608799347262,
+        "stop" : 1608799347396,
+        "duration" : 134
+      }
+    }, {
+      "uid" : "2035e11be79a612b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608790326737,
+        "stop" : 1608790326894,
+        "duration" : 157
+      }
+    }, {
+      "uid" : "26d1ab907673565c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608790106435,
+        "stop" : 1608790106574,
+        "duration" : 139
+      }
+    }, {
+      "uid" : "328cb0d4336078e6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608789970381,
+        "stop" : 1608789970515,
+        "duration" : 134
+      }
+    }, {
+      "uid" : "30f9155a11e862f9",
+      "status" : "broken",
+      "statusDetails" : "ValueError: malformed node or string: <_ast.Name object at 0x0000028609B92DA0>",
+      "time" : {
+        "start" : 1608789754119,
+        "stop" : 1608789754253,
+        "duration" : 134
+      }
+    }, {
+      "uid" : "7c4c22eb3439a676",
+      "status" : "broken",
+      "statusDetails" : "ValueError: malformed node or string: <_ast.Name object at 0x000001F0DDFD2DD8>",
+      "time" : {
+        "start" : 1608789435493,
+        "stop" : 1608789435627,
+        "duration" : 134
+      }
+    }, {
+      "uid" : "a79e4d9559275aaa",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'str' object has no attribute 'items'",
+      "time" : {
+        "start" : 1608789304943,
+        "stop" : 1608789305079,
+        "duration" : 136
+      }
+    }, {
+      "uid" : "c06327996bf295bc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608788632852,
+        "stop" : 1608788633027,
+        "duration" : 175
+      }
+    }, {
+      "uid" : "180332e2af041690",
+      "status" : "broken",
+      "statusDetails" : "NameError: name 'true' is not defined",
+      "time" : {
+        "start" : 1608788482798,
+        "stop" : 1608788482977,
+        "duration" : 179
+      }
+    }, {
+      "uid" : "44a60d9a8c7378ae",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: module 'pytest' has no attribute 'allure'",
+      "time" : {
+        "start" : 1608717883839,
+        "stop" : 1608717883979,
+        "duration" : 140
+      }
+    }, {
+      "uid" : "cf574221650da6eb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608717461047,
+        "stop" : 1608717461188,
+        "duration" : 141
+      }
+    }, {
+      "uid" : "6b4c38ee37ed8d67",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608716772169,
+        "stop" : 1608716772301,
+        "duration" : 132
+      }
+    }, {
+      "uid" : "87338c73581720b9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608716522793,
+        "stop" : 1608716522921,
+        "duration" : 128
+      }
+    }, {
+      "uid" : "443a19cd7c9fb45e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608716466753,
+        "stop" : 1608716466894,
+        "duration" : 141
+      }
+    }, {
+      "uid" : "780dc5c606bda1b4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608716383718,
+        "stop" : 1608716383843,
+        "duration" : 125
+      }
+    }, {
+      "uid" : "7fc20cb82d62d50c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608716122800,
+        "stop" : 1608716122925,
+        "duration" : 125
+      }
+    }, {
+      "uid" : "194516b7f5f6e73",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608715690360,
+        "stop" : 1608715690501,
+        "duration" : 141
+      }
+    }, {
+      "uid" : "d069fb58f934d91b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608715422413,
+        "stop" : 1608715422535,
+        "duration" : 122
+      }
+    }, {
+      "uid" : "2d5c83131de1a4a8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608713222360,
+        "stop" : 1608713222488,
+        "duration" : 128
+      }
+    }, {
+      "uid" : "b506dfe6adbd53b0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608711971927,
+        "stop" : 1608711972114,
+        "duration" : 187
+      }
+    }, {
+      "uid" : "538c14cb6ae8c714",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 400 == 200\n  +400\n  -200",
+      "time" : {
+        "start" : 1608711889161,
+        "stop" : 1608711889275,
+        "duration" : 114
+      }
+    }, {
+      "uid" : "d6c42e45e5c73d56",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 400 == 200\n  +400\n  -200",
+      "time" : {
+        "start" : 1608711454514,
+        "stop" : 1608711454639,
+        "duration" : 125
+      }
+    }, {
+      "uid" : "57a79b3c705d5234",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 400 == 200\n  +400\n  -200",
+      "time" : {
+        "start" : 1608711369120,
+        "stop" : 1608711369243,
+        "duration" : 123
+      }
+    }, {
+      "uid" : "3655876a4149a821",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 400 == 200\n  +400\n  -200",
+      "time" : {
+        "start" : 1608711311246,
+        "stop" : 1608711311371,
+        "duration" : 125
+      }
+    }, {
+      "uid" : "e1ae148ec8938975",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 400 == 200\n  +400\n  -200",
+      "time" : {
+        "start" : 1608711001925,
+        "stop" : 1608711002044,
+        "duration" : 119
+      }
+    }, {
+      "uid" : "2cea4d5089108eaf",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 400 == 200\n  +400\n  -200",
+      "time" : {
+        "start" : 1608710898635,
+        "stop" : 1608710898744,
+        "duration" : 109
+      }
+    }, {
+      "uid" : "78c65d69e0138c7f",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 400 == 200\n  +400\n  -200",
+      "time" : {
+        "start" : 1608710600221,
+        "stop" : 1608710600334,
+        "duration" : 113
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b366c50d0cea23d1.json",
+  "parameterValues" : [ "{'case_id': 2.0, 'case_module': '登录', 'case_name': '登录店员端', 'case_url': 'http://39.108.95.246:6218/bbox2-web-mobile-cat/clerk/loginForClerk', 'case_method': 'post', 'case_type': 'json', 'case_data': '{\"code\":\"666666\",\"phone\":\"13577777777\",\"app_id\":\"6015\",\"cj_type\":0,\"token\":\"TOKEN\",\"user_id\":\"USER_ID\"}', 'case_headers': \"{'Content-Type': 'application/json;charset=UTF-8'}\", 'case_preposition': '', 'case_isRun': 'y', 'case_code': 200.0, 'case_assert': '{\"success\":true}', 'case_result': '', 'case_remarks': ''}" ]
+}
