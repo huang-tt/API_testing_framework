@@ -5,28 +5,28 @@
     "name" : "test_case.test_api",
     "children" : [ {
       "name" : "获取验证码",
-      "uid" : "b8e8a38cfe854301",
+      "uid" : "a7191bcac10d836",
       "parentUid" : "1e033c9e0b1bb6383959357582d39712",
       "status" : "passed",
       "time" : {
-        "start" : 1608882660137,
-        "stop" : 1608882660557,
-        "duration" : 420
+        "start" : 1609318815879,
+        "stop" : 1609318816333,
+        "duration" : 454
       },
       "flaky" : true,
-      "parameters" : [ "{'case_id': 'case_001', 'case_module': '登录', 'case_name': '获取验证码', 'case_url': 'http://39.108.95.246:6218/bbox2-web-mobile-cat/common/getVeriCode', 'case_method': 'post', 'case_type': 'json', 'case_data': '{\"code_type\":\"3\",\"login_name\":\"13577777777\",\"u_type\":\"2\",\"app_id\":\"6015\",\"cj_type\":0,\"token\":\"TOKEN\",\"user_id\":\"USER_ID\"}', 'case_headers': \"{'Content-Type': 'application/json;charset=UTF-8'}\", 'case_preposition': '', 'case_isRun': 'y', 'case_code': 200.0, 'case_result': '{\"success\":true}'}" ]
+      "parameters" : [ "{'case_id': 1.0, 'case_module': '登录', 'case_name': '获取验证码', 'case_url': 'http://39.108.95.246:6218/bbox2-web-mobile-cat/common/getVeriCode', 'case_method': 'post', 'case_type': 'json', 'case_data': '{\"code_type\":\"3\",\"login_name\":\"13577777777\",\"u_type\":\"2\",\"app_id\":\"6015\",\"cj_type\":0,\"token\":\"TOKEN\",\"user_id\":\"USER_ID\"}', 'case_headers': \"{'Content-Type': 'application/json;charset=UTF-8'}\", 'case_preposition': '', 'case_isRun': 'y', 'case_code': 200.0, 'case_assert': '{\"success\":true}', 'case_result': '', 'case_remarks': ''}" ]
     }, {
       "name" : "登录店员端",
-      "uid" : "296db278b51aa246",
+      "uid" : "b366c50d0cea23d1",
       "parentUid" : "1e033c9e0b1bb6383959357582d39712",
       "status" : "passed",
       "time" : {
-        "start" : 1608882660561,
-        "stop" : 1608882660695,
-        "duration" : 134
+        "start" : 1609318816333,
+        "stop" : 1609318816536,
+        "duration" : 203
       },
       "flaky" : true,
-      "parameters" : [ "{'case_id': 'case_002', 'case_module': '登录', 'case_name': '登录店员端', 'case_url': 'http://39.108.95.246:6218/bbox2-web-mobile-cat/clerk/loginForClerk', 'case_method': 'post', 'case_type': 'json', 'case_data': '{\"code\":\"666666\",\"phone\":\"13577777777\",\"app_id\":\"6015\",\"cj_type\":0,\"token\":\"TOKEN\",\"user_id\":\"USER_ID\"}', 'case_headers': \"{'Content-Type': 'application/json;charset=UTF-8'}\", 'case_preposition': '', 'case_isRun': 'y', 'case_code': 200.0, 'case_result': '{\"success\":true}'}" ]
+      "parameters" : [ "{'case_id': 2.0, 'case_module': '登录', 'case_name': '登录店员端', 'case_url': 'http://39.108.95.246:6218/bbox2-web-mobile-cat/clerk/loginForClerk', 'case_method': 'post', 'case_type': 'json', 'case_data': '{\"code\":\"666666\",\"phone\":\"13577777777\",\"app_id\":\"6015\",\"cj_type\":0,\"token\":\"TOKEN\",\"user_id\":\"USER_ID\"}', 'case_headers': \"{'Content-Type': 'application/json;charset=UTF-8'}\", 'case_preposition': '', 'case_isRun': 'y', 'case_code': 200.0, 'case_assert': '{\"success\":true}', 'case_result': '', 'case_remarks': ''}" ]
     } ],
     "uid" : "test_case.test_api"
   } ]

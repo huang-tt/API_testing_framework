@@ -7,7 +7,8 @@ import pytest
 import json
 import allure
 import ast #将字符串转为字典
-from utils.openrationExcel import excel
+
+from utils.openrationExcel import *
 from base.method import *
 from common.login import *
 from common.assert_result import assert_content
@@ -62,8 +63,8 @@ class Test_API():
                 headers=headers
             )
             allure.attach("返回结果",'{0}'.format(r.json()))#在报告中显示返回结果
-            assert int(r.json()['code']) == int(data['case_code'])   # 断言验证状态码
-            a = assert_content(data['case_result'], r.json())   # 验证响应数据
+            pytest.assume(int(r.json()['code']) == int(data['case_code']))   # 断言验证状态码
+            a = assert_content(data['case_assert'], r.json())   # 验证响应数据
             allure.attach("验证响应数据，{0}".format(a))
 
 
@@ -76,8 +77,18 @@ class Test_API():
             )
 
             allure.attach("返回结果",'{0}'.format(r.json()))
-            assert int(r.json()['code']) == int(data['case_code'])  # 验证状态码
-            allure.attach("验证响应数据，{0}".format(assert_content(data['case_result'], r.json())))# 验证响应数据
+            pytest.assume(int(r.json()['code']) == int(data['case_code']))   # 验证状态码
+            asserts = assert_content(data['case_assert'], r.json()) #调用断言验证方法
+            allure.attach("验证响应数据，{0}".format(asserts))  # 在allure报告中显示验证响应数据
+            if asserts == '断言结果成功':
+                data['case_result'] = 'Pass'
+                data['case_remarks'] = asserts
+            else:
+                data['case_result'] = 'Fail'
+                data['case_remarks'] = asserts
+            reault = OperationExcel().write(data)
+
+
             #如果参数里面有“#”就可以通过此方法，去上个接口拿取到你想要的参数
             response = r.json()
             datas = recombination_data(excel, response)

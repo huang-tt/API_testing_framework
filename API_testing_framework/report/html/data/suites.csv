@@ -1,10 +1,10 @@
 "Status","Name","Duration in ms","Description"
-"passed","test_case.test_api.Test_API#test_gwyc_api","134","
+"passed","test_case.test_api.Test_API#test_gwyc_api","454","
         调用接口
         :param data: 接口信息
         :return:
         "
-"passed","test_case.test_api.Test_API#test_gwyc_api","420","
+"passed","test_case.test_api.Test_API#test_gwyc_api","203","
         调用接口
         :param data: 接口信息
         :return:

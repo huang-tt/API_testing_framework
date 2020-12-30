@@ -1,20 +1,20 @@
 [ {
-  "uid" : "296db278b51aa246",
-  "name" : "登录店员端",
+  "uid" : "a7191bcac10d836",
+  "name" : "获取验证码",
   "time" : {
-    "start" : 1608882660561,
-    "stop" : 1608882660695,
-    "duration" : 134
+    "start" : 1609318815879,
+    "stop" : 1609318816333,
+    "duration" : 454
   },
   "status" : "passed",
   "severity" : "blocker"
 }, {
-  "uid" : "b8e8a38cfe854301",
-  "name" : "获取验证码",
+  "uid" : "b366c50d0cea23d1",
+  "name" : "登录店员端",
   "time" : {
-    "start" : 1608882660137,
-    "stop" : 1608882660557,
-    "duration" : 420
+    "start" : 1609318816333,
+    "stop" : 1609318816536,
+    "duration" : 203
   },
   "status" : "passed",
   "severity" : "blocker"
